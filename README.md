@@ -1,12 +1,12 @@
-# 🌳 Soil Quality Monitoring System
+# ⛅ Weather Prediction API
 
-Focused on develop my skills and understanding of object-oriented programing, modular design, and real-world data analysis usinng Java, I made this project simulates IoT-based agricultural sensors to track soil moisture and pH levels, providing farmers with instant insights for better crop management. 
+Focused on expanding my skills in serverless architecture, API integration, and modular Python design, this project delivers a real-time weather forecasting application powered by AWS Lambda and OpenWeatherMap. It dynamically retrieves meteorological data for any city, processes it in the cloud, and displays it through a clean, marine-themed web interface. The goal is to deepen my understanding of cloud-based deployment, event-driven programming, and data presentation for practical, scalable applications.
 
 ---
 
 ## 📝 Project Overview
 
-The system functions as a real-time monitoring application that continuously collects soil data from simulated IoT sensors. It reads key environmental parameters such as soil moisture and pH levels, then processes this information through an analyzer module to generate actionable insights for farmers. The results are displayed live in the console, indicating whether the soil is too dry, too wet, acidic, or optimal for crop growth. Designed with a modular architecture, the project allows easy integration with actual hardware sensors, databases, or cloud dashboards for future expansion into a full smart agriculture platform.
+The system operates as a real-time weather monitoring and forecasting application that retrieves live meteorological data from the OpenWeatherMap API. Upon receiving a city query, the Lambda function collects key environmental parameters such as temperature, humidity, and general weather conditions, then applies a simple predictive model to estimate tomorrow’s temperature. Built with a modular Python architecture and deployed through AWS Lambda and API Gateway, the project emphasizes scalability, clean code separation, and ease of integration with other services—such as databases, IoT weather sensors, or user dashboards—for future expansion into a fully serverless climate analysis platform.
 
 ---
 
@@ -18,28 +18,27 @@ The system functions as a real-time monitoring application that continuously col
 
 ## 🖥️ Project Structure
 ```
-Soil_Monitor/
-│── Images/ 
-│ ├── Screenshot.png # Project view
-│── logic/ 
-│ ├── SoilAnalyzer.java # Analysis: Soil Data, Moisture and pH
-│── sensors/ 
-│ ├── MoistureSensor.java #Moisture simulator
-│ ├── PhSensor.java #pH simulator
-│ ├── Sensor.java #Return simulated reading
-│── Main.java #Main Java file
-│── LICENSE # Project documentation
+Weather_API/
+│── lambda_function.py #All code used in lambda
+│── Screenshot.png #Project view
 │── README.md # Project documentation
+│── LICENSE # Project documentation
+│── .gitignore # Project documentation
 ```
 ---
 
 ## 🛠️ Built With
 
-- **System** – Java
+- **Backend / Cloud** – AWS Lambda, AWS API Gateway
+- **Main Language** – Python
+- **Data Source** – OpenWeatherMap API
+- **Frontend / Website** – HTML, CSS
+- **Environment Variables** – AWS Lambda Environment Configuration
+- **Deployment** – AWS Console & API Gateway integration
 
 ---
 
 ## 🌐 Clone the repository
 ```bash
-git clone https://github.com/DerikFlamel/FRZ-System.git](https://github.com/DerikFlamel/Soil_Monitor.git
+git clone https://github.com/DerikFlamel/Wheater_API.git
 ```
