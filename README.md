@@ -12,7 +12,7 @@ The system functions as a real-time monitoring application that continuously col
 
 ## 🖼️ Preview
 
-![Project Screenshot](./Images/Screenshot.png)
+![Project Screenshot](Screenshot.png)
 
 ---
 
