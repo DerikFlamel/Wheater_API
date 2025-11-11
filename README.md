@@ -14,7 +14,7 @@ The system operates as a real-time weather monitoring and forecasting applicatio
 
 ![Project Screenshot](Screenshot.png)
 
-**URL:**https://74mrlhcql9.execute-api.sa-east-1.amazonaws.com/?city=Cleveland
+**URL:** https://74mrlhcql9.execute-api.sa-east-1.amazonaws.com/?city=Cleveland
 
 ---
 
